@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* 임포트 */
+@import url(/css/reset.css);
+
+/* 메인페이지 */
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.full-section {
+  width: 100%;
+  min-height: 800px;
+  height: 100vh;
+  background-color: var(--main-bg-color);
+  position: relative;
+  scroll-snap-align: start;
+}
+.full-section.header {
+  height: calc(100vh - 70px);
+}
+
+#main-header {
+  width: 100%;
+  height: 70px;
+  position: sticky;
+  top: 0px;
+  z-index: 9;
+  border-bottom: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+  background-color: var(--main-hdr-color);
+}
+
+.game-con {
+  max-width: 80%;
+  width: 100%;
+  height: 70%;
+  border-radius: 35px;
+  background-color: var(--point-green);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

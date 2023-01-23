@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --main-bg-color: #403f3c;
+  --main-hdr-color: #d9c791;
+  --main-light: #f2eae4;
+  --point-green: #16f263;
+  --point-red: #d92b04;
+}
